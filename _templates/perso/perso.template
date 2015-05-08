@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<link rel="stylesheet" href="_templates/perso/Stef.css" type="text/css" />
+		<title>
+			{{title}}
+		</title>
+	</head>
+	<body>
+		<div class="main_container">
+			<div id="header">
+				<div id="headerSideTitle">
+					Stéphane Ducasse
+				</div>
+				<div id="headerPageTitle">
+					{{title}}
+				</div>
+			</div>
+			<div id="menu">
+				<div id="toc">
+					{{# files }}
+					<div id="tocItem">
+						<a href="{{url}}">{{title}}</a>
+					</div>
+					{{/ files }}
+				</div>
+			</div>
+			<div id="personalDetails">
+				<div>
+					<img src="StefFingerOnNose128.jpg" />
+				</div>
+				<div id="personalDetailsItem">
+					<a href="http://www.inria.fr/">INRIA</a>
+				</div><!--Closing personalDetailsItem -->
+				<div id="personalDetailsItem">
+					<a href="http://rmod.lille.inria.fr/">RMOD</a>
+				</div><!--Closing personalDetailsItem -->
+				<div id="personalDetailsItem">
+					<a href="mailto:stephane.ducasse@inria.fr">Stephane.Ducasse(@At@)inria.fr</a>
+				</div><!--Closing personalDetailsItem -->
+			</div><!--Closing personalDetails -->
+			<div class="contents">
+			{{{content}}}
+			</div>
+		</div>
+	</body>
+</html>
