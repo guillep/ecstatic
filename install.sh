@@ -2,4 +2,4 @@ wget -O- https://raw.githubusercontent.com/pillar-markup/book-skeleton/master/do
 ./pharo Pharo.image eval --save "Gofer it
 	smalltalkhubUser: 'StephaneDucasse' project: 'Ecstatic';
 	configurationOf: 'Ecstatic';
-	loadVersion: '0.1'" 
+	loadVersion: #stable" 
