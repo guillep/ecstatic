@@ -1,0 +1,6 @@
+!My Publications
+
+[[[eval=true
+ETPublicationsPlugin new
+	exportInto: stream
+]]]
