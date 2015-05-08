@@ -1,0 +1,2 @@
+# ecstatic
+ecstatic site generator
