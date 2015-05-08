@@ -43,6 +43,10 @@
 			<div class="contents">
 			{{{content}}}
 			</div>
+			<footer class="footer">
+	          This website is developed using <a href="https://github.com/pillar-markup/pillar-documentation">Pillar</a> and Ecstatic<br>
+	          Perso theme by <a href="https://twitter.com/guillep">Guillermo Polito</a>.
+	        </footer>
 		</div>
 	</body>
 </html>
