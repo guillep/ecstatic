@@ -1,0 +1,14 @@
+!test
+
+this is getting better
+-a
+-b
+-c
+
+!News
+[[[eval=true
+ETListPlugin new
+	directory: 'news';
+	last: 3;
+	exportInto: stream
+]]]
