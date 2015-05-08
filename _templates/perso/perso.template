@@ -3,7 +3,7 @@
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 	<head>
-		<link rel="stylesheet" href="_templates/perso/Stef.css" type="text/css" />
+		<link rel="stylesheet" href="_templates/perso/perso.css" type="text/css" />
 		<title>
 			{{title}}
 		</title>
@@ -12,7 +12,7 @@
 		<div class="main_container">
 			<div id="header">
 				<div id="headerSideTitle">
-					Stéphane Ducasse
+					My website
 				</div>
 				<div id="headerPageTitle">
 					{{title}}
@@ -29,16 +29,16 @@
 			</div>
 			<div id="personalDetails">
 				<div>
-					<img src="StefFingerOnNose128.jpg" />
+					<img src="me.jpg" />
 				</div>
 				<div id="personalDetailsItem">
-					<a href="http://www.inria.fr/">INRIA</a>
+					<a href="affiliation">affiliation</a>
 				</div><!--Closing personalDetailsItem -->
 				<div id="personalDetailsItem">
-					<a href="http://rmod.lille.inria.fr/">RMOD</a>
+					<a href="team">team</a>
 				</div><!--Closing personalDetailsItem -->
 				<div id="personalDetailsItem">
-					<a href="mailto:stephane.ducasse@inria.fr">Stephane.Ducasse(@At@)inria.fr</a>
+					<a href="mailto:...">mail</a>
 				</div><!--Closing personalDetailsItem -->
 			</div><!--Closing personalDetails -->
 			<div class="contents">
