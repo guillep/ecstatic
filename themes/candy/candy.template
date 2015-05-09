@@ -10,12 +10,12 @@
 	
     <title>{{{title}}}</title>
     <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="{{baseurl}}/_templates/candy/pygment_trac.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="{{baseurl}}/_templates/candy/print.css" media="print">
-	<script src="{{baseurl}}/_templates/common/highlight/highlight.pack.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{baseurl}}/themes/candy/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="{{baseurl}}/themes/candy/print.css" media="print">
+	<script src="{{baseurl}}/themes/common/highlight/highlight.pack.js"></script>
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="{{baseurl}}/_templates/candy/stylesheet.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="{{baseurl}}/themes/candy/stylesheet.css" media="screen">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -28,8 +28,11 @@
 			
 	 		<header style="padding:10px;background-color:white;">
 				<div style="width:700px;margin:0 auto;">
-					<h1>dbxtalk</h1>
-		 			<h2 style="margin:0px;">Pharo's relational database suite</h2>
+					<a href="{{baseurl}}" role="button">
+						<img alt="{{site_name}}" src="{{site_logo}}" style="height:100px;float:left;margin-right:10px">
+					</a>
+					<h1>{{site_name}}</h1>
+					<h2>{{site_short_description}}</h2>
 				</div>
 	 		</header>
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="width:700px;margin:0 auto;">

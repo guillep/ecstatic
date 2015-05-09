@@ -3,7 +3,7 @@
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 	<head>
-		<link rel="stylesheet" href="{{baseurl}}/_templates/perso/perso.css" type="text/css" />
+		<link rel="stylesheet" href="{{baseurl}}/themes/perso/perso.css" type="text/css" />
 		<title>
 			{{title}}
 		</title>
@@ -12,7 +12,7 @@
 		<div class="main_container">
 			<div id="header">
 				<div id="headerSideTitle">
-					My website
+					{{site_name}}
 				</div>
 				<div id="headerPageTitle">
 					{{title}}
@@ -27,19 +27,17 @@
 					{{/ files }}
 				</div>
 			</div>
-			{{#website-author}}
 			<div id="personalDetails">
 				<div>
-					<img src="{{pictureurl}}" />
+					<img src="{{{site_logo}}}" />
 				</div>
 				<div id="personalDetailsItem">
-					<a href="affiliation">{{{affiliation}}}</a>
+					<a href="">{{{site_name}}}</a>
 				</div>
 				<div id="personalDetailsItem">
-					<a href="mailto:...">{{{email}}}</a>
+					<a href="mailto:...">{{{site_email}}}</a>
 				</div>
 			</div>
-			{{/website-author}}
 			<div class="contents">
 			{{{content}}}
 			</div>
