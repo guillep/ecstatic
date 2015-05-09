@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>
+			ESUG: Membership
+		</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+		<meta name="generator" content="Pier - Magritte - Seaside" />
+		<meta name="robots" content="index,follow" />
+		<meta name="keywords" content="ESUG smalltalk squeak pharo visualworks gemstone glass europe Membership" />
+		
+		<link rel="stylesheet" type="text/css" media="screen, projection" href="/_themes/pure/screen.css" />
+		<link rel="stylesheet" type="text/css" media="print" href="/_themes/pure/print.css" />
+		<!--[if IE]><link rel="stylesheet" type="text/css" media="screen, projection" href="/wiki/files/PRBlueprintLibrary/ie.css"/><![endif]-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="/_themes/pure/pure.css" />
+		<link rel="canonical" href="http://esug.org/wiki/pier/About/membership" />
+		
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	</head>
+	<body class="page viewcommand defaultview">
+		<div class="container">
+			<div class="header">
+				<div class="title">
+					<h1>
+						<a title="News" class="internal page" href="/wiki/pier?_s=Bc0sTg1lCGWhsduS&amp;_k=fZunTXfibZaci-XH&amp;_n&amp;5">News</a>
+					</h1>
+				</div>
+				<div class="children">					
+					<ul>
+						{{#files}}
+						<li>
+							<a class="page" href="{{url}}">{{title}}</a>
+						</li>
+						{{/files}}
+					</ul>
+				</div>
+				<div class="submenue">
+					<ul>
+						<li>
+							<a class="active page" title="Membership" href="/wiki/pier/About/membership?_s=Bc0sTg1lCGWhsduS&amp;_k=fZunTXfibZaci-XH&amp;_n&amp;18">Membership</a>
+						</li>
+						<li>
+							<a title="Become a Sponsor" class="page" href="/wiki/pier/About/BecomeSponsor?_s=Bc0sTg1lCGWhsduS&amp;_k=fZunTXfibZaci-XH&amp;_n&amp;19">Become a Sponsor</a>
+						</li>
+						<li>
+							<a title="Support ESUG" class="page" href="/wiki/pier/About/SupportESUG?_s=Bc0sTg1lCGWhsduS&amp;_k=fZunTXfibZaci-XH&amp;_n&amp;20">Support ESUG</a>
+						</li>
+						<li>
+							<a title="Sponsors" class="page" href="/wiki/pier/About/Sponsors?_s=Bc0sTg1lCGWhsduS&amp;_k=fZunTXfibZaci-XH&amp;_n&amp;21">Sponsors</a>
+						</li>
+						<li>
+							<a title="ESUG News" class="blog" href="/wiki/pier/About/ESUGblog?_s=Bc0sTg1lCGWhsduS&amp;_k=fZunTXfibZaci-XH&amp;_n&amp;22">ESUG News</a>
+						</li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="body">
+				<div class="contents">
+					{{{content}}}
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="madeby">
+				Powered by <a title="http://pharo-project.org" class="external" href="http://pharo-project.org">pharo</a> | <a title="http://www.piercms.com" class="external" href="http://www.piercms.com">pier</a> | <a title="http://www.seaside.st" class="external" href="http://www.seaside.st">seaside</a>
+			</div>
+
+		<script>
+		$(document).ready(function() {
+		    $('dt').each(function() {
+		        var $dt = $(this),
+		        $selection = $dt.next('dd').andSelf();
+		        $selection.wrapAll('<div class="col-md-4">');
+		    });
+			$('dd').find('br').remove();
+			$('dt').contents().unwrap().wrap("<h3/>");
+			$('dd').contents().unwrap().wrap("<p/>");
+			$('dl').wrap("<div class='row multi-columns-row'/>");
+			$('dl').contents().unwrap();
+		});
+		function transformAnnotatedParagraphs(pClass) {
+		    $("p." + pClass).wrap("<div class='alert alert-" + pClass + "' role='alert'/>" );
+		};
+		transformAnnotatedParagraphs('success');
+		transformAnnotatedParagraphs('info');
+		transformAnnotatedParagraphs('warning');
+		transformAnnotatedParagraphs('danger');
+		</script>
+		<script type="text/javascript">
+				/* analytics */
+				/*<![CDATA[*/
+					var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+					document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+				/*]]>*/
+			</script>
+			<script type="text/javascript">
+/*<![CDATA[*/var pageTracker = _gat._getTracker('UA-2892391-1');
+			pageTracker._initData();
+			pageTracker._trackPageview();/*]]>*/
+			</script>
+		</div>
+	</body>
+</html>

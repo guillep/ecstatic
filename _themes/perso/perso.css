@@ -1,0 +1,295 @@
+body{
+	COLOR: #000000; 
+	BACKGROUND: #FFFFFF;                                    
+	
+	font: 11pt Verdana, Tahoma, Arial, Helvetica, sans-serif, Times New Roman;
+
+	PADDING-LEFT: 0px;
+	PADDING-RIGHT: 0px;
+	PADDING-TOP: 0px;
+	PADDING-BOTTOM: 0px;
+}
+
+
+/* HEADER */
+
+#header {
+}
+
+#headerSiteTitle {
+	font-size: 14pt;
+	font-weight: 500;
+	letter-spacing: 1px;
+	border-bottom: 1px solid #CCCCCC;
+	width: 128px;
+}
+
+
+#headerSiteTitle {
+	font-size: 14pt;
+	font-weight: 500;
+	letter-spacing: 1px;
+	border-bottom: 1px solid #CCCCCC;
+	width: 250px;
+}
+
+#headerPageTitle {
+	font-size: 12pt;
+	font-weight: 500;
+	color: #777777;
+	letter-spacing: 7px;
+	margin-left: 8px;
+	padding-left: 48px;
+	border-left: 1px solid #CCCCCC
+}
+
+/* HEADER - end*/
+
+/* MENU */
+
+
+#menu {
+	float: left;
+
+	margin-left: 8px;
+	margin-right: 32px;
+	margin-bottom: 16px;
+	width: 142px;
+}
+
+
+
+#toc {
+	font-size: 9pt;
+
+	padding-top: 16px;
+	
+	border-left: 1px solid #CCCCCC;
+}
+
+
+#tocItem {
+
+	padding: 9px;
+	border-bottom: 1px #CCCCCC solid;
+}
+
+#copyright {
+	font: 7pt Verdana, Tahoma, Arial, Helvetica, sans-serif, Times New Roman;
+	color: #777777;
+
+
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+/*MENU - end*/
+
+/*MAIN*/
+
+td{
+	font: 8pt Verdana, Tahoma, Arial, Helvetica, sans-serif, Times New Roman;
+}
+
+
+#mainContent {
+	position: absolute;
+	margin: 8px;
+	margin-top: 0px;
+	padding-top: 16px;
+	font: 9pt Verdana, Tahoma, Arial, Helvetica, sans-serif, Times New Roman;
+}
+
+#personalDetails {
+	font: 8pt Verdana, Tahoma, Arial, Helvetica, sans-serif, Times New Roman;
+	float: right;
+	width: 180px;
+	margin-left: 16px;
+	margin-bottom: 16px;
+}
+
+#personalDetailsItem{
+	margin-left: 8px;
+	border-left: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	padding: 8px;
+}
+
+/*MAIN - end*/
+
+/*COMMON*/
+
+#commonList {
+}
+
+#commonItem {
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+#commonItemDate {
+	font-size: 7pt;
+}
+
+#commonItemDate:before {
+	content: " ("
+}
+
+#commonItemDate:after {
+	content: ") "
+}
+
+#commonItemTitle {
+}
+
+#commonItemDescription {
+}
+
+#commonItemDescription:before {
+	content: "-"
+}
+
+#commonItemDetail {
+	font-size: 7pt;
+	margin-left: 16px;
+}
+
+/*COMMON - end*/
+
+
+/*PUBLICATIONS*/
+
+.paperList, .projectList, .contactData {
+	padding-bottom:32px;
+}
+
+.paperListTitle, .projectListTitle, .contactTitle {
+	letter-spacing: 2px;
+	border-bottom: 1px solid #CCCCCC;
+	margin-bottom: 16px;
+}
+
+.paper, .project, .supervisedThesis, .presentation {
+	padding-bottom: 16px;
+}
+
+.paperAbstract, .paperBibEntry, .thesisSupervisor, .thesisAbstract {
+	font-size: 7pt;
+	margin-left: 16px;
+	margin-top: 4px;
+}
+
+.paperRef, .thesisRef {
+	margin-left: 16px;
+	margin-top: 4px;
+}
+
+.paperDate, .thesisDate, .projectDate, .presentationDate {
+	font-size: 7pt;
+}
+
+.paperDate:before, .thesisDate:before, .projectDate:before, .presentationDate:before {
+	content: " ("
+}
+
+.paperDate:after, .thesisDate:after, .projectDate:after, .presentationDate:after {
+	content: ") "
+}
+
+
+.paperDescription:before, .thesisDescription:before, .projectDescription:before, .presentationLocation:before {
+	content: "- "
+}
+
+.paperAuthor:after, .thesisAuthor:after {
+	content: " - "
+}
+
+.paperTitle, .thesisTitle {	
+	color: #992222;
+}
+
+.paperTitle:after, .paperTitle:before, .thesisTitle:after, .thesisTitle:before {
+	content: "''"
+}
+
+.emphasize {
+	font-weight: bold;
+}
+
+.lineHeader {
+	font-weight: bold;
+}
+
+/*PUBLICATIONS - end*/
+
+
+
+
+/*DOCBOOK*/
+
+#docbook {
+/*	font: 9pt Times New Roman, Verdana, Tahoma, Arial, Helvetica, sans-serif;*/
+}
+
+.revhistory {
+	display: none;
+}
+
+h2 {
+	font-size: 11pt;
+	font-weight: 200;
+	letter-spacing: 2px;
+}
+
+h3 {
+	font-size: 9pt;
+	font-weight: 200;
+	letter-spacing: 2px;
+}
+
+hr {
+	display: none;
+}
+
+/*DOCBOOK - end*/
+
+
+/* LINKS */
+
+A:link {
+	COLOR: #000099;
+	TEXT-DECORATION: none;
+}
+
+A:visited {
+	COLOR: #000099;
+	TEXT-DECORATION: none;
+}
+
+A:hover {
+	COLOR: #883333;
+	TEXT-DECORATION: none;
+}
+
+A:active {
+	COLOR: blue;
+	TEXT-DECORATION: none;
+}
+
+.main_container {
+    width: 1000px;
+    margin: 0 auto;	
+}
+
+.contents{
+	width: 600px;
+	margin-left: 180px;
+}
+
+.footer {
+	  bottom: 3px;
+	  width: 100%;
+	  /* Set the fixed height of the footer here */
+	font: 8pt Verdana, Tahoma, Arial, Helvetica, sans-serif, Times New Roman;
+}
