@@ -41,21 +41,9 @@
 				</div>
 				<div class="submenue">
 					<ul>
-						<li>
-							<a class="active page" title="Membership" href="/wiki/pier/About/membership?_s=Bc0sTg1lCGWhsduS&amp;_k=fZunTXfibZaci-XH&amp;_n&amp;18">Membership</a>
-						</li>
-						<li>
-							<a title="Become a Sponsor" class="page" href="/wiki/pier/About/BecomeSponsor?_s=Bc0sTg1lCGWhsduS&amp;_k=fZunTXfibZaci-XH&amp;_n&amp;19">Become a Sponsor</a>
-						</li>
-						<li>
-							<a title="Support ESUG" class="page" href="/wiki/pier/About/SupportESUG?_s=Bc0sTg1lCGWhsduS&amp;_k=fZunTXfibZaci-XH&amp;_n&amp;20">Support ESUG</a>
-						</li>
-						<li>
-							<a title="Sponsors" class="page" href="/wiki/pier/About/Sponsors?_s=Bc0sTg1lCGWhsduS&amp;_k=fZunTXfibZaci-XH&amp;_n&amp;21">Sponsors</a>
-						</li>
-						<li>
-							<a title="ESUG News" class="blog" href="/wiki/pier/About/ESUGblog?_s=Bc0sTg1lCGWhsduS&amp;_k=fZunTXfibZaci-XH&amp;_n&amp;22">ESUG News</a>
-						</li>
+						{{# subfiles }}
+						<li><a href="{{url}}">{{title}}</a></li>
+						{{/ subfiles }}
 					</ul>
 				</div>
 				<div class="clear"></div>
@@ -68,7 +56,7 @@
 		</div>
 		<div class="footer">
 			<div class="madeby">
-				Powered by <a title="http://pharo-project.org" class="external" href="http://pharo-project.org">pharo</a> | <a title="http://www.piercms.com" class="external" href="http://www.piercms.com">pier</a> | <a title="http://www.seaside.st" class="external" href="http://www.seaside.st">seaside</a>
+				Pure theme powered by <a class="external" href="http://www.pharo.org">pharo</a> | <a class="external" href="http://www.smalltalkhub.com/#!/~Pier/Pillar">pillar</a> | <a class="external" href="http://www.smalltalkhub.com/#!/~StephaneDucasse/Ecstatic">Ecstatic</a>
 			</div>
 
 		<script>
