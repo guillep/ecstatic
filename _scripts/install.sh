@@ -1,5 +1,3 @@
-wget -O- https://raw.githubusercontent.com/pillar-markup/book-skeleton/master/download.sh | bash
-./pharo Pharo.image eval --save "Gofer it
-	smalltalkhubUser: 'StephaneDucasse' project: 'Ecstatic';
-	configurationOf: 'Ecstatic';
-	loadVersion: #stable" 
+wget --quiet -O - get.pharo.org/40+vm | bash
+REPO=http://smalltalkhub.com/mc/StephaneDucasse/Ecstatic/main
+./pharo Pharo.image config $REPO ConfigurationOfEcstatic --install=development --group='ALL'
