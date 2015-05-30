@@ -11,11 +11,11 @@
 		<meta name="robots" content="index,follow" />
 		<meta name="keywords" content="ESUG smalltalk squeak pharo visualworks gemstone glass europe Membership" />
 		
-		<link rel="stylesheet" type="text/css" media="screen, projection" href="/themes/pure/screen.css" />
-		<link rel="stylesheet" type="text/css" media="print" href="/themes/pure/print.css" />
+		<link rel="stylesheet" type="text/css" media="screen, projection" href="{{baseurl}}theme/screen.css" />
+		<link rel="stylesheet" type="text/css" media="print" href="{{baseurl}}theme/print.css" />
 		<!--[if IE]><link rel="stylesheet" type="text/css" media="screen, projection" href="/wiki/files/PRBlueprintLibrary/ie.css"/><![endif]-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="/themes/pure/pure.css" />
+		<link rel="stylesheet" type="text/css" href="{{baseurl}}theme/pure.css" />
 		<link rel="canonical" href="http://esug.org/wiki/pier/About/membership" />
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -27,7 +27,7 @@
 			<div class="header">
 				<div class="title">
 					<h1>
-						<a href="{{baseurl}}/index.html"><img alt="{{site_news}}" style="height:100px" src="{{site_logo}}"></a>
+						<a href="{{baseurl}}index.html"><img alt="{{site_news}}" style="height:100px" src="{{site_logo}}"></a>
 					</h1>
 				</div>
 				<div class="children">					
