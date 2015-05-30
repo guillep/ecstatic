@@ -45,3 +45,9 @@ Ecstatic provides several initial themes to work with: candy, pure and perso. Yo
     },
 }
 ```
+
+### TODOs
+
+- Plugins should be parameterized with the site and use always files relative to the origin
+- last changes to citezen should be commited
+- extend pillar annotations to declare plugins
