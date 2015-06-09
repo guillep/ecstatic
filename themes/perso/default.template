@@ -3,7 +3,7 @@
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 	<head>
-		<link rel="stylesheet" href="{{baseurl}}/themes/perso/perso.css" type="text/css" />
+		<link rel="stylesheet" href="{{baseurl}}/theme/perso.css" type="text/css" />
 		<title>
 			{{title}}
 		</title>
@@ -20,11 +20,11 @@
 			</div>
 			<div id="menu">
 				<div id="toc">
-					{{# files }}
+					{{# menu }}
 					<div id="tocItem">
 						<a href="{{url}}">{{title}}</a>
 					</div>
-					{{/ files }}
+					{{/ menu }}
 				</div>
 			</div>
 			<div id="personalDetails">
