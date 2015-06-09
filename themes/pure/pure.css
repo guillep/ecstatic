@@ -13,7 +13,6 @@ tr.error, th.error, td.error { border: none }
 }
 
 html, body{
-        height: 100%;
         margin: 0px;
         padding: 0px;
         font-family: helvetica neue, helvetica;
@@ -22,11 +21,10 @@ html, body{
 		background-color: white;
 }
 .container {
-          width: 100%;
           min-height: 100%;
           height: auto !important;
           height: 100%;
-          margin: 0 auto -150px;
+          margin: 0 auto 0;
 }
 h1 {
       font-size: 2em;
@@ -58,7 +56,6 @@ a:focus.page, a:active {
 
 .header{
  	margin: auto;
-	width: 840px;
 	min-height: 120px;
 }
 .title {
@@ -187,14 +184,13 @@ figure{
 	display: inline;
 	height: 40px;
 	float: left;
-        margin: 8px;
+    margin: 8px;
 }
 /*content*/
 
 .body {
-        height: auto;
-        margin: auto;
-        width: 780px;
+	height: auto;
+	margin: auto;
 }
 .contents{
         padding-top: 20px;
