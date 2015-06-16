@@ -1,0 +1,1 @@
+$(dirname $0)/pharo-ui $(dirname $0)/Pharo.image ecstatic "$@" `pwd`
