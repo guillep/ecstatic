@@ -82,7 +82,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="footer">
+		</div>
+			<div class="footer container-fluid">
 				<div class="madeby">
 						Pure theme powered by <a class="external" href="http://www.pharo.org">pharo</a> | <a class="external" href="http://www.smalltalkhub.com/#!/~Pier/Pillar">pillar</a> | <a class="external" href="http://www.smalltalkhub.com/#!/~StephaneDucasse/Ecstatic">Ecstatic</a>
 					</div>
@@ -121,6 +122,5 @@
 					pageTracker._trackPageview();/*]]>*/
 					</script>
 				</div>
-		</div>
 	</body>
 </html>

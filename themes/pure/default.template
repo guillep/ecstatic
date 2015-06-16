@@ -11,11 +11,11 @@
 		<meta name="robots" content="index,follow" />
 		<meta name="keywords" content="ESUG smalltalk squeak pharo visualworks gemstone glass europe Membership" />
 		
-		<link rel="stylesheet" type="text/css" media="screen, projection" href="{{baseurl}}/theme/screen.css" />
-		<link rel="stylesheet" type="text/css" media="print" href="{{baseurl}}/theme/print.css" />
+		<link rel="stylesheet" type="text/css" media="screen, projection" href="{{baseurl}}theme/screen.css" />
+		<link rel="stylesheet" type="text/css" media="print" href="{{baseurl}}theme/print.css" />
 		<!--[if IE]><link rel="stylesheet" type="text/css" media="screen, projection" href="/wiki/files/PRBlueprintLibrary/ie.css"/><![endif]-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="{{baseurl}}/theme/pure.css" />
+		<link rel="stylesheet" type="text/css" href="{{baseurl}}theme/pure.css" />
 		<link rel="canonical" href="http://esug.org/wiki/pier/About/membership" />
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -54,7 +54,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="footer">
+		<div class="footer container-fluid">
 			<div class="madeby">
 				Pure theme powered by <a class="external" href="http://www.pharo.org">pharo</a> | <a class="external" href="http://www.smalltalkhub.com/#!/~Pier/Pillar">pillar</a> | <a class="external" href="http://www.smalltalkhub.com/#!/~StephaneDucasse/Ecstatic">Ecstatic</a>
 			</div>
