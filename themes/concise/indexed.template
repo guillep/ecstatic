@@ -70,7 +70,7 @@
 
 	        {{# menu }}
 	            <li>
-					<a href="{{url}}"><span class="glyphicon {{ icon }}"></span> {{ title }}</a>
+					<a href="{{ baseurl }}/{{ url }}"><span class="glyphicon {{ icon }}"></span> {{ title }}</a>
 				</li>
 	        {{/ menu }}
 	      </ul>
@@ -91,9 +91,9 @@
 			<div class="col-sm-3">
 				<div class="shadow-corner-curl hidden-xs">
 				<!--<div class="categories-list-header">{{{index_title}}}</div>-->
-				{{# secondary_menu }}
+				{{# index_menu }}
 					<a class="categories-list-item" href="{{url}}">{{{title}}}</a>
-				{{/ secondary_menu }}
+				{{/ index_menu }}
 				</div>
 			</div>
 		</div>

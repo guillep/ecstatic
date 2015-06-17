@@ -60,7 +60,7 @@ nav{
 
 /* index main */
 .main{
-	min-height: 800px;
+	margin-bottom: 100px;
 }
 .post-area{
 	
@@ -89,17 +89,6 @@ nav{
 .post-list-item:last-of-type{
 	border-bottom: none;
 }
-.post-list-item h2{
-	font-size: 20px;
-	margin: 8px 0 8px 0;
-	padding: 0;
-}
-
-.post-list-item:hover{
-	background-color: rgba(0,0,6,0.05);
-	
-}
-
 
 /* categories list */
 .categories-list-header {
@@ -164,7 +153,7 @@ nav{
 	width: 70%;
 	height:70%;
 	left: 9%;
-	bottom: 2%;
+	bottom: 8px;
 	background: transparent;
 	-webkit-box-shadow: 0 8px 20px rgba(0,0,0,0.6);
 	-moz-box-shadow: 0 8px 20px rgba(0,0,0,0.6);
@@ -185,7 +174,7 @@ nav{
 	width: 70%;
 	height:70%;
 	right: 9%;
-	bottom: 2%;
+	bottom: 8px;
 	background: transparent;
 	-webkit-box-shadow: 0 8px 20px rgba(0,0,0,0.6);
 	-moz-box-shadow: 0 8px 20px rgba(0,0,0,0.6);
@@ -204,7 +193,6 @@ nav{
 footer{
 	min-height: 50px;
 	line-height: 50px;
-	margin-top: 80px;
 	background: #3f4850;
 	color: #aaa;
 	text-align: center;
