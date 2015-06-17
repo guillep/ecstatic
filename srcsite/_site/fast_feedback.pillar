@@ -1,9 +1,0 @@
-!Ecstatic fast feedback
-
-Ecstatic proposes a dynamic workflow to write static websites: during development ecstatic can serve and regenerate your website automatically using the ==serve== command:
-
-[[[
-$ ecstatic serve -w #serves and watches for changes
-]]]
-
-Ecstatic will serve by default our website in ==http://localhost:8080==. Every change we make and every new pillar file we create will be automatically translated. You need only to refresh your website. You can even change your theme dinamically :) 

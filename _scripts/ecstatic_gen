@@ -1,2 +1,0 @@
-#!/bin/bash
-./pillar export --to='html'
