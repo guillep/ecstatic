@@ -13,7 +13,7 @@
 	
   	<!-- <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}"> -->
 
-  	<link rel="stylesheet" type="text/css" href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css">
+  	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
   	<!-- <link rel="stylesheet" type="text/css" href="http://apps.bdimg.com/libs/fontawesome/4.2.0/css/font-awesome.min.css"> -->
   	<!-- <link rel="stylesheet" type="text/css" href="{{"/static/css/bootstrap.min.css" | prepend: site.baseurl }}"> -->
 	
@@ -70,7 +70,7 @@
 
 	        {{# menu }}
 	            <li>
-					<a href="{{url}}"><span class="glyphicon {{ icon }}"></span> {{ title }}</a>
+					<a href="{{ url }}"><span class="glyphicon {{ icon }}"></span> {{ title }}</a>
 				</li>
 	        {{/ menu }}
 	      </ul>
@@ -138,28 +138,6 @@
 	  </div>
 	</footer>
 
-
-  <script type="text/javascript">
-    var duoshuoQuery = {short_name:"hygblog"};
-    (function() {
-      var ds = document.createElement('script');
-      ds.type = 'text/javascript';ds.async = true;
-      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-      ds.charset = 'UTF-8';
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-  </script>
-
-  <script type="text/javascript">
-    function addBlankTargetForLinks () {
-      $('a[href^="http"]').each(function(){
-          $(this).attr('target', '_blank');
-      });
-    }
-    $(document).bind('DOMNodeInserted', function(event) {
-      addBlankTargetForLinks();
-    });
-  </script>
 </div>
   </body>
 </html>
