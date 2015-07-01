@@ -438,11 +438,6 @@ blockquote:last-child {
 	box-shadow: 0 1px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
 }
 
-#myAffix .affix{
-	top:-20px;
-	bottom: 0px;
-}
-
 @media screen and (max-width: 1200px){
 	.post{
 		padding:10px 10px;
