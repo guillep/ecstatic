@@ -29,7 +29,7 @@ html, body{
 	margin: 0 auto -150px;
 }
 h1 {
-      font-size: 2em;
+      font-size: 2.5em;
       text-align: none;
 }
 
@@ -68,10 +68,19 @@ a:focus.page, a:active {
 }
 .title {
 	position: absolute;
-	width: 200px;
-        height: 100px;
+	width: 100%;
+    height: 100px;
    	padding-top: 10px;
 }
+
+.title h2 {
+	margin-top: 0px;
+}
+
+.title img {
+	height: 100px;
+}
+
 .header .title a.page{
        height: 100px;
        outline: 0px;

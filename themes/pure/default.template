@@ -25,10 +25,16 @@
 	<body class="page viewcommand defaultview">
 		<div class="container">
 			<div class="header">
-				<div class="title">
-					<h1>
-						<a href="{{baseurl}}index.html"><img alt="{{site_news}}" style="height:100px" src="{{site_logo}}"></a>
-					</h1>
+				<div class="title">	
+					<div style="float:left; margin-right:15px">
+						<a href="{{baseurl}}index.html">
+							 <img alt="{{site_name}}" src="{{site_logo}}">
+						</a>
+					</div>
+					<div style="margin:15px">
+						<h1>{{site_name}}</h1>
+					  	<h2>{{site_short_description}}</h2>
+					</div>
 				</div>
 				<div class="children">					
 					<ul>
