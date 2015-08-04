@@ -14,21 +14,6 @@ Pillar is a document model for [Pharo](http://www.pharo.org) that can be exporte
 - [Pillar Cheat Sheet](http://www.cheatography.com/benjaminvanryseghem/cheat-sheets/pillar/)
 - [Pillar docs](https://ci.inria.fr/pharo-contribution/view/Books/job/EnterprisePharoBook/lastBuild/artifact/PillarChap/Pillar.html)
 
-### Ecstatic Themes
-
-Ecstatic provides several initial themes to work with: candy, pure and perso. You can tweak your website to use a different theme by changing the *template* entry in the pillar.conf file:
-
-```javascript
-{
-	"configurations" : {
-		"html" : {
-			"template" : "themes/pure/pure.template",
-			"outputType" : #html,
-			"separateOutputFiles" : true
-		}
-    },
-}
-```
 
 ### TODOs
 
