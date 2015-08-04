@@ -1,27 +1,11 @@
 # Ecstatic
 Ecstatic is the ecstatic site generator for [Pharo](http://www.pharo.org). Ecstatic uses pillar as its markup language to describe pages, mustache templates to accommodate your content and plugins completely written in Pharo.
 
-### Installation
-Execute the following instructions in your terminal to install ecstatic:
+### Installation & Usage
 
-```bash
-git clone https://github.com/guillep/ecstatic.git
-cd ecstatic
-./_scripts/install.sh
-```
+For installation and usage, check ecstatic's website:
 
-This script will load and install Pharo, Ecstatic, Pillar, and some basic themes. To start running your website, you have to open Pharo
-
-```bash
-./pharo-ui Pharo.image
-```
-
-And execute there the following script:
-
-```smalltalk
-site := ETSite new.
-site serve.
-```
+http://guillep.github.io/ecstatic/
 
 ### About Pillar 
 
