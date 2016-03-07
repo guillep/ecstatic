@@ -12,6 +12,15 @@ $ cd ecstatic
 $ ./_scripts/install.sh
 ]]]
 
+If you have trouble during the installation script, you might need to configure you're Pharo proxy as bellow :
+
+[[[
+$ ecstatic proxy --name='proxy.name' --port=9090
+]]]
+
+where proxy.name is the address of your proxy and 9090 is the port used by your proxy.
+Then relaunch the installation script.
+
 Once the installation is finished, you have to add the directory where ecstatic got installed to your ==PATH== environment variable. If not, you will have to specify the full path to ecstatic to use ecstatic commands during website development.
 
 !!Binary downloads
