@@ -43,6 +43,8 @@ I can write
 All this is supported by +Pharo>http://pharo.org/web/files/pharo.png+
 ]]]
 
+You can get all the Pillar syntax *here>http://www.cheatography.com/benjaminvanryseghem/cheat-sheets/pillar/*.
+
 !!Generate your site
 
 Once you have your pillar files ready to go, you can generate your site using the ==generate== command, as follows:
