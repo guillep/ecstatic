@@ -3,6 +3,8 @@
 A Ecstatic site consists basically on a collection of Pillar files, and configuration file ==pillar.conf== describing some basic information of your site. Ecstatic generates automatically the basic structure of your site and an example configuration file using its ==createsite== command from the command line. Place yourself on the directory where you want to develop your site and execute
 
 [[[
+mkdir mySite
+cd mySite
 $ ecstatic createsite	
 ]]]
 
@@ -40,6 +42,8 @@ I can write
 
 All this is supported by +Pharo>http://pharo.org/web/files/pharo.png+
 ]]]
+
+You can get all the Pillar syntax *here>http://www.cheatography.com/benjaminvanryseghem/cheat-sheets/pillar/*.
 
 !!Generate your site
 
