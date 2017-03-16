@@ -12,7 +12,7 @@
 <title><noscript>
   Blog
 </noscript></title>
-<link rel="stylesheet" href="{{baseurl}}/theme/css/NT.css" type="text/css" />
+<link rel="stylesheet" href="{{baseurl}}/theme/NT.css" type="text/css" />
 </head>
 <body>
 
