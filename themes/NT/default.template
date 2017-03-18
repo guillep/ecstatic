@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!--html-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Pharo - Pillar - Ecstatic" />
+<meta name="robots" content="index,follow" />
+<meta name="keywords" content="{{site_keywords}}" />
+
+<title><noscript>
+  Blog
+</noscript></title>
+<link rel="stylesheet" href="{{baseurl}}/theme/NT.css" type="text/css" />
+</head>
+<body>
+
+<div class="menu-wrapper">
+  <div class="menu">
+    <ul>
+        <li><a href="{{baseurl}}/theme/default.template" class="active" >home</a></li>
+       <img src="{{baseurl}}/theme/images/logo.png" width="40" height="40"/>
+       <h1>{{site_name}}</h1>
+       <h1>{{site_short_description}}</h1>
+   
+    </ul>
+  </div>
+  
+  
+</div>
+
+
+
+<!--- menu-wrapper div end -->
+<div class="clearing"></div>
+<div class="border-bottom"></div>
+<div class="logo-wrapper">
+  <div class="leftshadow">
+
+  <img src="{{baseurl}}/theme/images/logo-wrap-left.jpg">
+  </div>
+  <div class="logo">
+       
+  </div>
+  <div class="rightshadow">
+
+<img src="{{baseurl}}/theme/images/logo-wrap-right.jpg" />
+
+</div>
+</div>
+<div class="clearing"></div>
+<div class="banner-wrapper">
+  <div class="bannerlef"><img src="{{baseurl}}/theme/images/banner-wrap-left.jpg" /></div>
+  <div class="banner-container">
+    <div class="banner">
+      <div class="banner-content">
+        {{{content}}}
+    </div>
+  </div>
+  <div class="bannerright"><img src="{{baseurl}}/theme/images/banner-wrap-right.jpg"/></div>
+</div>
+
+<!--- container div end -->
+
+<div class="panel-wrapper">
+ 
+</div>
+<div class="footer-wrapper">
+  <div class="footer">
+ <h1>NT theme by LM and QQS. Suggested by <a href="https://github.com/guillep">Guillermo</a> and<a href="https://github.com/Ducasse"> Stéphane</a></h1>
+
+  </div>
+</div>
+</body>
+</html>
