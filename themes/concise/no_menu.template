@@ -28,11 +28,11 @@
 
   	<script type="text/javascript" src="{{baseurl}}/theme/concise.js"></script>
 	
-  	<link rel="stylesheet" type="text/css" href="http://apps.bdimg.com/libs/highlight.js/8.4/styles/monokai_sublime.min.css">
-  	<!-- <link rel="stylesheet" type="text/css" href="http://apps.bdimg.com/libs/highlight.js/8.4/styles/railscasts.min.css"> -->
-  	<!-- <link rel="stylesheet" type="text/css" href="http://apps.bdimg.com/libs/highlight.js/8.4/styles/monokai.min.css"> -->
-  	<!-- <script type="text/javascript" src="http://apps.bdimg.com/libs/highlight.js/8.4/languages/dos.min.js"></script> -->
-  	<script type="text/javascript" src="http://apps.bdimg.com/libs/highlight.js/8.4/highlight.min.js"></script>
+  	<link rel="stylesheet" type="text/css" href="http://apps.bdimg.com/libs/highlight.js/9.12.0/styles/monokai_sublime.min.css">
+  	<!-- <link rel="stylesheet" type="text/css" href="http://apps.bdimg.com/libs/highlight.js/9.12.0/styles/railscasts.min.css"> -->
+  	<!-- <link rel="stylesheet" type="text/css" href="http://apps.bdimg.com/libs/highlight.js/9.12.0/styles/monokai.min.css"> -->
+  	<!-- <script type="text/javascript" src="http://apps.bdimg.com/libs/highlight.js/9.12.0/languages/dos.min.js"></script> -->
+  	<script type="text/javascript" src="http://apps.bdimg.com/libs/highlight.js/9.12.0/highlight.min.js"></script>
   	<script>hljs.initHighlightingOnLoad();</script>
 
   	<script>
