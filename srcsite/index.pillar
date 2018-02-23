@@ -7,5 +7,8 @@ Ecstatic is a static web-site generator engine written entirely in +Pharo>http:/
 - Extensible
 
 
+!! Getting started
 
-+Getting started>getting_started.pillar+
+- +Install>install.pillar+
+- +Your first site>first_site.pillar+
+- +Life feeback of your site>ast_feedback.pillar+
