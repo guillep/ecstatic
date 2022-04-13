@@ -1,0 +1,1 @@
+%~dp0\Pharo.exe --headless %~dp0\Pharo.image ecstatic %* %CD%
