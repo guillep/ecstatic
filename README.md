@@ -1,3 +1,14 @@
+# Disclaimer
+
+This repository is not maintained anymore.
+It is only kept here for historical and documentative purposes.
+
+A modern way to generate documents with Pharo can be found in pillar and microdown.
+See
+
+- https://github.com/pillar-markup/pillar
+- https://github.com/pillar-markup/Microdown/
+
 # Ecstatic
 Ecstatic is the ecstatic site generator for [Pharo](http://www.pharo.org). Ecstatic uses pillar as its markup language to describe pages, mustache templates to accommodate your content and plugins completely written in Pharo.
 
